@@ -34,8 +34,11 @@ Eckart-Young-Mirsky teoremine göre $A_k$, $A$ matrisine Frobenius normunda en y
 ## 🚀 Kurulum ve Çalıştırma
 
 1. Depoyu klonlayın:
-```bash
-git clone [https://github.com/KULLANICI_ADINIZ/svd-image-compressor.git](https://github.com/KULLANICI_ADINIZ/svd-image-compressor.git)
+git clone https://github.com/semhkaramann/svd-image-compressor.git
+cd svd-image-compressor
+pip install -r requirements.txt
+streamlit run app.py
+
 cd svd-image-compressor
 pip install -r requirements.txt
 streamlit run app.py
